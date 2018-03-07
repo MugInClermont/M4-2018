@@ -6,7 +6,7 @@ Repository contenant toutes les sources / scripts dont nous nous sommes servis p
 
 Les services back ont été développés à l'aide de .net core (Web API, EF Core). Les données sont hostées sur PostgreSQL.
 
-Le front a été développé avec Angular 5. La partie graphique utilise Bootstrap 4.
+Le front a été développé avec ~~React~~ Angular 5. La partie graphique utilise Bootstrap 4.
 
 Les environnements de tests et de production sont hébergés sur Azure. Les sources ont été hostées sur VSTO.
 
