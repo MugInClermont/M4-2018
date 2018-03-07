@@ -2,6 +2,14 @@
 
 Repository contenant toutes les sources / scripts dont nous nous sommes servis pour la session du 06/03/2018.
 
+## Stack technique
+
+Les services back ont été développés à l'aide de .net core (Web API, EF Core). Les données sont hostées sur PostgreSQL.
+
+Le front a été développé avec Angular 5. La partie graphique utilise Bootstrap 4.
+
+Les environnements de tests et de production sont hébergés sur Azure. Les sources ont été hostées sur VSTO.
+
 ## Obtenir les sources
 
 Pour obtenir tous les supports, clonez le repository
