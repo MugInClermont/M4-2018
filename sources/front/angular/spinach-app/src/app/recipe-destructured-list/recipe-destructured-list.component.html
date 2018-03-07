@@ -1,0 +1,24 @@
+<div class="row" *ngIf="recipes[0]">
+  <div class="col-sm" *ngIf="recipes[0]">
+    <app-recipe-card [recipe]="recipes[0]"></app-recipe-card>
+  </div>
+  <div class="col-sm" *ngIf="recipes[1]">
+    <app-recipe-card [recipe]="recipes[1]"></app-recipe-card>
+  </div>
+  <div class="col-sm" *ngIf="recipes[2]">
+    <app-recipe-card [recipe]="recipes[2]"></app-recipe-card>
+  </div>
+</div>
+<div class="row" *ngIf="recipes[3]">
+  <div class="col-sm-8" *ngIf="recipes[3]">
+    <app-recipe-card [recipe]="recipes[3]"></app-recipe-card>
+  </div>
+  <div class="row col-sm-4 no-gutters" *ngIf="recipes[4]">
+    <div class="col-sm-12" *ngIf="recipes[4]">
+      <app-recipe-card [recipe]="recipes[4]"></app-recipe-card>
+    </div>
+    <div class="col-sm-12" *ngIf="recipes[5]">
+      <app-recipe-card [recipe]="recipes[5]"></app-recipe-card>
+    </div>
+  </div>
+</div>

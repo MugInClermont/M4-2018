@@ -1,0 +1,20 @@
+<div class="section section-basic">
+  <div class="container">
+    <div class="title">
+      <h2>{{ title }}</h2>
+    </div>
+    <div *ngIf="showMode == 'last'">
+      <app-recipe-destructured-list *ngFor="let chunk of recipes" [recipes]="chunk"></app-recipe-destructured-list>
+    </div>
+    <div *ngIf="showMode == 'all'">
+      <app-recipe-simple-list [recipes]="allRecipes"></app-recipe-simple-list>
+    </div>
+    <div class="row" *ngIf="showMode == 'last'">
+      <div class="col-lg text-right">
+        <a routerLink="/recipes">
+          View all recipes
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+.green-filter:after {
+  background: rgba(50, 129, 80, 0.64);
+  background: linear-gradient(45deg, rgba(47, 142, 110, 0.88) 0%, rgba(46, 185, 46, 0.45) 100%);
+  background: -moz-linear-gradient(135deg, rgba(47, 142, 110, 0.88) 0%, rgba(46, 185, 46, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(47, 142, 110, 0.88) 0%, rgba(46, 185, 46, 0.45) 100%);
+}
+
+.index-page {
+  .navbar {
+    &.fixed-top {
+      &:not(.navbar-transparent) {
+        form {
+          .form-control {
+            background-image: linear-gradient(to top, #555555 2px, rgba(255, 255, 255, 0) 2px), linear-gradient(to top, #555555 1px, rgba(255, 255, 255, 0) 1px);
+          }
+          input {
+            color: #555555 !important
+          }
+        }
+      }
+    }
+    .bmd-form-group {
+      input::placeholder {
+        line-height: 1.5;
+      }
+    }
+  }
+  .brand {
+    h3 {
+      max-width: 600px !important;
+    }
+  }
+}
+
+.footer {
+  padding: .9375rem 0;
+  text-align: center;
+  display: flex;
+}
